@@ -1,1 +1,10 @@
-console.log("")
+import express from 'express'
+
+
+const app = express()
+
+const port = 3000;
+
+app.listen(port,() => {
+    console.log("port running on " + port)
+})
